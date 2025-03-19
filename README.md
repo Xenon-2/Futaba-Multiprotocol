@@ -5,7 +5,8 @@ Goal: Give to all futaba radios and more in general to all PPM capable radios th
 
 Adavantages: 
 
-1: Use your own trusted transmitter.< br / > 
+1: Use your own trusted transmitter.
+
 2: Use transmitter that has proprietary firmware, stable and solid( e.g. Futaba, Spektrum, Jr ... )
 3: Avoid "Loss of conformity" of your trasmitter installing firmwares like OpenTx or EdgeTx, not officially present on the manufacturer website.
 4: Save money.
