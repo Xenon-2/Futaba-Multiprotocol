@@ -16,4 +16,6 @@ BOM
 1 x Oled display SH1106
 1 x Banggood iRangeX IRX4 Plus 2.4G CC2500 NRF24L01 A7105 CYRF6936 4 IN 1
 
+No source code will be available, just the binary to upload to arduino nano.
+
 Waiting to test IRangeX IRX4 LITE
