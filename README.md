@@ -11,7 +11,7 @@ Adavantages:
 
 3: Avoid "Loss of conformity" of your trasmitter installing firmwares like OpenTx or EdgeTx, not officially present on the manufacturer website.
 
-4: Save money.
+4: Save money, no need to buy other trasmitters.
 
 BOM
 
