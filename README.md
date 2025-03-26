@@ -3,7 +3,7 @@
 # Futaba-Multiprotocol
 Serial Multiprotocol interface for Futaba or every transmitter with PPM interface ( via trainer port ).
 
-**Goal:** Give to all Futaba radios and more in general to all PPM capable radios, the possibility to use the multiprotocol module.
+**Goal:** Give to all Futaba radios and more in general to all PPM capable radios, the possibility to use the multiprotocol module iRangeX IRX4 Plus.<br />
 
 **Adavantages:** <br />
 1: Use your own trusted transmitter.<br />
