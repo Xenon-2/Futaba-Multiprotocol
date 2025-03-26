@@ -19,7 +19,7 @@ After 10 seconds the prompted protocol is activated unless ailerons stick is mov
 Moving ailerons stick you can change the protocol to be activated(see pictures below).<br />
 Once done you can move down elevator stick or wait 10 seconds to activate the selected protocol.<br />
 See the picture above with radio in flight mode.<br />
-**Important: For security reason once protocol is activated (Flight Mode), it cannot be changed anymore. Need to recicle power.**<br />
+**Important: For security reason once protocol is activated (Flight Mode), it cannot be changed anymore. Need to recycle power.**<br />
 
 **BINDING procedure**<br />
 After turning on the transmitter, move elevator stick UP to activate binding procedure as shown on the display.<br />
@@ -37,7 +37,7 @@ So no issue with battery.<br />
 1 x Banggood iRangeX IRX4 Plus 2.4G CC2500 NRF24L01 A7105 CYRF6936 4 IN 1<br />
 1 x Sdcard module (Optional)<br />
 
-No source code will be available at the moment, just the binary to upload to arduino nano.<br />
+No source code will be available at the moment, just the binary to upload to arduino nano (find instructions online).<br />
 
 Waiting to test Banggood IRangeX IRX4 LITE.<br />
 
