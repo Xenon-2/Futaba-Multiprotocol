@@ -3,13 +3,15 @@
 # Futaba-Multiprotocol
 Serial Multiprotocol interface for Futaba or every transmitter with PPM interface ( via trainer port ).
 
-**Goal:** Give to all Futaba radios and more in general to all PPM capable radios, the possibility to use the multiprotocol module Banggood iRangeX IRX4 Plus via serial connection.<br />
+**Goal:** Give to all Futaba radios and more in general to all PPM capable radios, the possibility to use the multiprotocol module Banggood iRangeX IRX4 Plus via **serial connection**.<br />
 
 **Adavantages:** <br />
 1: Use your own trusted transmitter.<br />
 2: Use transmitter that has proprietary firmware, stable and solid( e.g. Futaba, Spektrum, Jr ... )<br />
 **3: Avoid "Loss of conformity" (EU law 2019/947) of your trasmitter installing firmwares versions of OpenTx or EdgeTx, not certified by the constructor.**<br />
-4: Save money, no need to buy other trasmitters.
+4: Save money, no need to buy other trasmitters.<br />
+5: Using the multiprotocol module Banggood iRangeX IRX4 Plus in **serial mode** is far more simpler and safer then using **PPM mode**, no need to select protocol via the knob and bank of memory. Also avoid the risk to destroy contacts of the knob.<br />
+
 
 **USAGE**<br />
 After turning on the transmitter, the last used protocol is prompted.<br />
@@ -23,9 +25,10 @@ See the picture above with radio in flight mode.<br />
 After turning on the transmitter, move elevator stick UP to activate binding procedure as shown on the display.<br />
 You have 10 seconds to put receiver on bind mode if not done before. After 10 seconds system will return to protocol selection.<br />
 
-
-
-
+**Power consumption**<br />
+With Futaba T14SG power consumption with internal module is 152mah.<br />
+With this system and Banggood iRangeX IRX4 Plus 2.4G power consumption is almost identical, 153mah.<br />
+So no issue with battery.<br />
 
 **BOM**
 
@@ -34,9 +37,12 @@ You have 10 seconds to put receiver on bind mode if not done before. After 10 se
 1 x Banggood iRangeX IRX4 Plus 2.4G CC2500 NRF24L01 A7105 CYRF6936 4 IN 1<br />
 1 x Sdcard module (Optional)<br />
 
-No source code will be available at the moment, just the binary to upload to arduino nano.
+No source code will be available at the moment, just the binary to upload to arduino nano.<br />
 
-Waiting to test Banggood IRangeX IRX4 LITE 
+Waiting to test Banggood IRangeX IRX4 LITE.<br />
+
+**Hoping Banggood can create a IRangeX IRX4 with this system embended.**<br />
+**I know that many people are not able to do it by themselves. They deserve one.**<br />
 
 **Connection diagrams**<br />
 <pre>
