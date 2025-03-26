@@ -12,6 +12,19 @@ Serial Multiprotocol interface for Futaba or every transmitter with PPM interfac
 4: Save money, no need to buy other trasmitters.
 
 **USAGE**<br />
+After turning on the transmitter, the last used protocol is prompted.<br />
+After 10 seconds the prompted protol is activated unless ailerons stick is moved.<br />
+Moving ailerons stick you can change the protocol to activate.<br />
+Once done you can move down elevator stick or wait 10 seconds to activate the selected protocol.<br />
+
+**BINDING procedure**<br />
+After turning on the transmitter, move elevator stick UP to activate binding procedure as shown on the display.<br />
+You have 10 seconds to put receiver on bind mode if not done before. After 10 seconds system will return to protocol selection.<br />
+
+
+
+
+
 **BOM**
 
 1 x Arduino nano<br />
