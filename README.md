@@ -1,3 +1,5 @@
+![screenshot](MPF4.png)
+
 # Futaba-Multiprotocol
 Serial Multiprotocol interface for Futaba or every transmitter with PPM interface ( via trainer port ).
 
@@ -66,5 +68,7 @@ ___________
 |        x|  -GND 
 |________x|
 </pre>
-
+![screenshot](MPF1.png)
+![screenshot](MPF2.png)
+![screenshot](MPF3.png)
 
