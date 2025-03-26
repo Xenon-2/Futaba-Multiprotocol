@@ -18,7 +18,7 @@ BOM
 
 No source code will be available at the moment, just the binary to upload to arduino nano.
 
-Waiting to test Banggood IRangeX IRX4 LITE
+Waiting to test Banggood IRangeX IRX4 LITE 
 
 Connection diagrams<br />
 <pre>
