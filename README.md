@@ -19,7 +19,10 @@ After 10 seconds the prompted protocol is activated unless ailerons stick is mov
 Moving ailerons stick you can change the protocol to be activated(see pictures below).<br />
 Once done you can move down elevator stick or wait 10 seconds to activate the selected protocol.<br />
 See the picture above with radio in flight mode.<br />
-**Important: For security reason once protocol is activated (Flight Mode), it cannot be changed anymore. Need to recycle power.**<br />
+**Important: For security reasons once protocol is activated (Flight Mode), it cannot be changed anymore. Need to recycle power.**<br />
+
+**Pay attention that at the moment are used channel 1 for ailerons and channel 2 for elevators (AETR). If you use other mapping channels move sticks accordingly for channels 1 and 2.**<br />
+**Channel mapping affect only protocol selection while the real channel mapping for your RX is controlled by the firmware version loaded on the IRANGEX**<br />
 
 **BINDING procedure**<br />
 After turning on the transmitter, move elevator stick UP to activate binding procedure as shown on the display.<br />
@@ -29,6 +32,23 @@ You have 10 seconds to put receiver on bind mode if not done before. After 10 se
 With Futaba T14SG power consumption with internal module is 152mah.<br />
 With this system and Banggood iRangeX IRX4 Plus 2.4G power consumption is almost identical, 153mah.<br />
 So no issue with battery.<br />
+
+**Supported protocols**<br />
+All the protocols of the Banggood IRANGEX are supported.<br />
+With scdcard a file named PROT.TXT is scanned to let browse supported protocols.<br />
+User can choose protocols to use instead of browsing more then 100 protocols.<br />
+Here is an example of PROT.TXT file(if sdcard is not present, system defaults to the protocols as shown in the example below):<br />
+<pre>
+"FRSKY D ",003,00,252
+"  KDS   ",024,00,000
+" CORONA ",037,16,254
+"AFHDS2A ",028,17,000
+" DSMX   ",006,48,000
+"FRSKY R ",015,00,252
+</pre>
+fixed record lenght of 23 bytes 21 of data and CRLF<br />
+Syntax: protocol name, protocol number, RxNum | Power | Sub protocol, fine tuning<br />
+
 
 **BOM**
 
