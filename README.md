@@ -27,28 +27,35 @@ No source code will be available at the moment, just the binary to upload to ard
 
 Waiting to test Banggood IRangeX IRX4 LITE
 
-Connection diagram
-Nano     SH1106
- A4       SDA
- A5       SCL
- 5V       VCC
-GND       GND
-
+Connection diagram<br />
+<pre>
+Nano  SH1106<br />
+ A4    SDA<br />
+ A5    SCL<br />
+ 5V    VCC<br />
+GND    GND<br />
+</pre>
+_______________
+<pre>
+POWER
 NANO      TX
 VIN      8.4+ ( should work also with 3s but not tested )
 GND      GND
-
-
+</pre>
+_______________
+<pre>
 PPM in from TX
 NANO     TX
  D2     PPM signal out
-
+</pre>
+_______________
+<pre>
 Serial to Multiprotocol module
 NANO    MPM
 TX1     Serial in
 VIN     +BAT
 GND     -GND
-
+</pre>
 
 MPM Pinout
 ___________
