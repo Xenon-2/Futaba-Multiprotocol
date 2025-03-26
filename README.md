@@ -3,7 +3,7 @@
 # Futaba-Multiprotocol
 Serial Multiprotocol interface for Futaba or every transmitter with PPM interface ( via trainer port ).
 
-**Goal:** Give to all Futaba radios and more in general to all PPM capable radios, the possibility to use the multiprotocol module iRangeX IRX4 Plus.<br />
+**Goal:** Give to all Futaba radios and more in general to all PPM capable radios, the possibility to use the multiprotocol module Banggood iRangeX IRX4 Plus via serial connection.<br />
 
 **Adavantages:** <br />
 1: Use your own trusted transmitter.<br />
@@ -13,10 +13,11 @@ Serial Multiprotocol interface for Futaba or every transmitter with PPM interfac
 
 **USAGE**<br />
 After turning on the transmitter, the last used protocol is prompted.<br />
-After 10 seconds the prompted protol is activated unless ailerons stick is moved.<br />
-Moving ailerons stick you can change the protocol to activate.<br />
+After 10 seconds the prompted protocol is activated unless ailerons stick is moved.<br />
+Moving ailerons stick you can change the protocol to be activated(see pictures below).<br />
 Once done you can move down elevator stick or wait 10 seconds to activate the selected protocol.<br />
 See the picture above with radio in flight mode.<br />
+**Important: For security reason once protocol is activated (Flight Mode), it cannot be changed anymore. Need to recicle power.**<br />
 
 **BINDING procedure**<br />
 After turning on the transmitter, move elevator stick UP to activate binding procedure as shown on the display.<br />
