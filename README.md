@@ -8,7 +8,7 @@ Serial Multiprotocol interface for Futaba or every transmitter with PPM interfac
 **Adavantages:** <br />
 1: Use your own trusted transmitter.<br />
 2: Use transmitter that has proprietary firmware, stable and solid( e.g. Futaba, Spektrum, Jr ... )<br />
-3: Avoid "Loss of conformity" of your trasmitter installing firmwares like OpenTx or EdgeTx, not officially released on the manufacturer website.<br />
+**3: Avoid "Loss of conformity" (EU law 2019/947) of your trasmitter installing firmwares versions of OpenTx or EdgeTx, not certified by the constructor.**<br />
 4: Save money, no need to buy other trasmitters.
 
 **USAGE**<br />
@@ -16,6 +16,7 @@ After turning on the transmitter, the last used protocol is prompted.<br />
 After 10 seconds the prompted protol is activated unless ailerons stick is moved.<br />
 Moving ailerons stick you can change the protocol to activate.<br />
 Once done you can move down elevator stick or wait 10 seconds to activate the selected protocol.<br />
+See the picture above with radio in flight mode.<br />
 
 **BINDING procedure**<br />
 After turning on the transmitter, move elevator stick UP to activate binding procedure as shown on the display.<br />
