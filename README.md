@@ -1,15 +1,16 @@
 # Futaba-Multiprotocol
 Serial Multiprotocol interface for Futaba or every transmitter with PPM interface ( via trainer port ).
 
-Goal: Give to all Futaba radios and more in general to all PPM capable radios, the possibility to use the multiprotocol module.
+**Goal:** Give to all Futaba radios and more in general to all PPM capable radios, the possibility to use the multiprotocol module.
 
-Adavantages: <br />
+**Adavantages:** <br />
 1: Use your own trusted transmitter.<br />
 2: Use transmitter that has proprietary firmware, stable and solid( e.g. Futaba, Spektrum, Jr ... )<br />
 3: Avoid "Loss of conformity" of your trasmitter installing firmwares like OpenTx or EdgeTx, not officially released on the manufacturer website.<br />
 4: Save money, no need to buy other trasmitters.
 
-BOM
+**USAGE**<br />
+**BOM**
 
 1 x Arduino nano<br />
 1 x Oled display SH1106<br />
@@ -20,7 +21,7 @@ No source code will be available at the moment, just the binary to upload to ard
 
 Waiting to test Banggood IRangeX IRX4 LITE 
 
-Connection diagrams<br />
+**Connection diagrams**<br />
 <pre>
 Oled Display
 _______________
