@@ -34,7 +34,7 @@ See the picture above with radio in flight mode.<br />
 **Important: For security reasons once protocol is activated (Flight Mode), it cannot be changed anymore. Need to recycle power.**<br />
 
 **Pay attention that at the moment are used channel 1 for ailerons and channel 2 for elevators (AETR). If you use other mapping channels move sticks accordingly for channels 1 and 2.**<br />
-**Channel mapping affect only protocol selection while the real channel mapping for your RX is controlled by the firmware version loaded on the IRANGEX**<br />
+**Channel mapping affects only protocol selection while the real channel mapping for your RX is controlled by the firmware version loaded on the IRANGEX**<br />
 
 **BINDING procedure**<br />
 After turning on the transmitter, move elevator stick UP to activate binding procedure as shown on the display.<br />
