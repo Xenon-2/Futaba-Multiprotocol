@@ -5,10 +5,22 @@ Serial Multiprotocol interface for Futaba or every transmitter with PPM interfac
 
 **Goal:** Give to all Futaba radios and more in general to all PPM capable radios, the possibility to use the multiprotocol module Banggood iRangeX IRX4 Plus via **serial connection**.<br />
 
+**Legal aspects:**<br />
+In EU is legal to control remote aircrafts only if:<br />
+**-Use a ground control station (aka transmitter) that is EU Certified.**<br />
+*-Note that transmitters that have installed open source firmware loose conformity and are not legal in EU.<br />
+**-Use a RX that works on a certified protocol in EU in the band of 2.4 Ghz only.**<br />
+<pre>
+For example:
+ Spektrum DSM 1 - No more available but certified in EU - Legal to use.
+ Spektrum DSM 2 - Never certified in EU                 - NOT Legal to use.
+ Spektrum DSM X - Still Available and certified in EU   - Legal to use.
+ 
+</pre>
 **Adavantages:** <br />
 1: Use your own trusted transmitter.<br />
 2: Use transmitter that has proprietary firmware, stable and solid( e.g. Futaba, Spektrum, Jr ... )<br />
-**3: Avoid "Loss of conformity" (EU law 2019/947) of your trasmitter installing firmwares versions of OpenTx or EdgeTx, not certified by the constructor.**<br />
+**3: Avoid "Loss of conformity" (EU law 2019/947) of your trasmitter installing open source firmwares not certified by the constructor.**<br />
 4: Save money, no need to buy other trasmitters.<br />
 5: Using the multiprotocol module Banggood iRangeX IRX4 Plus in **serial mode** is far more simpler and safer then using **PPM mode**, no need to select protocol via the knob and bank of memory. Also avoid the risk to destroy contacts of the knob.<br />
 
@@ -109,6 +121,11 @@ ___________
 |        x|  -GND 
 |________x|
 </pre>
+**Thanks to:**<br />
+https://www.banggood.com/<br />
+https://downloads.multi-module.org/?irangex<br />
+https://github.com/pascallanger/DIY-Multiprotocol-TX-Module<br />
+
 ![screenshot](MPF1.png)
 ![screenshot](MPF2.png)
 ![screenshot](MPF3.png)
