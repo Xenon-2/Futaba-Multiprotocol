@@ -1,3 +1,16 @@
+# As today the 16th of august 2025 I consider the project completed.
+After months of positive tests flying with different radios, protocols and receivers i can say that the goal of the project is reached.
+
+No further development will be done in order to keep this level of security and service.
+
+I decided not to share the source becouse of the risks that you can face modifying the code. 
+
+Anyway anyone can develop the same code studying the multiprotocol project https://github.com/pascallanger/DIY-Multiprotocol-TX-Module
+
+Radios tested: Futaba T9, T14SG, T14MZ
+
+
+
 ![screenshot](MPF4.png)
 
 # Futaba-Multiprotocol
