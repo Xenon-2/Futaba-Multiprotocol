@@ -7,16 +7,20 @@ I decided not to share the source becouse of the risks that you can face modifyi
 
 Anyway anyone can develop the same code studying the multiprotocol project https://github.com/pascallanger/DIY-Multiprotocol-TX-Module
 
+Hex file SHA256 9d87e2f495c9ef474c45266540afff5d8dff5106e50e043381523d666f7a5b58 <br />
+Can be checked at https://emn178.github.io/online-tools/sha256_checksum.html
+
 Radios tested: Futaba T9, T14SG, T14MZ
 
 
 
 ![screenshot](MPF4.png)
+![screenshot](MPM_lite.png)
 
 # Futaba-Multiprotocol
 Serial Multiprotocol interface for Futaba or every transmitter with PPM interface ( via trainer port ).
 
-**Goal:** Give to all Futaba radios and more in general to all PPM capable radios, the possibility to use the multiprotocol module Banggood iRangeX IRX4 Plus via **serial connection**.<br />
+**Goal:** Give to all Futaba radios and more in general to all PPM capable radios, the possibility to use the multiprotocol module iRangeX IRX4 Plus or iRangeX IRX4 Lite via **serial connection**.<br />
 
 **Legal aspects:**<br />
 In EU is legal to control remote aircrafts only if:<br />
@@ -35,7 +39,7 @@ For example:
 2: Use transmitter that has proprietary firmware, stable and solid( e.g. Futaba, Spektrum, Jr ... )<br />
 **3: Avoid "Loss of conformity" (EU law 2019/947) of your trasmitter installing open source firmwares not certified by the constructor.**<br />
 4: Save money, no need to buy other trasmitters.<br />
-5: Using the multiprotocol module Banggood iRangeX IRX4 Plus in **serial mode** is far more simpler and safer then using **PPM mode**, no need to select protocol via the knob and bank of memory. Also avoid the risk to destroy contacts of the knob.<br />
+5: Using the multiprotocol module iRangeX IRX4 Plus in **serial mode** is far more simpler and safer then using **PPM mode**, no need to select protocol via the knob and bank of memory. Also avoid the risk to destroy contacts of the knob.<br />
 
 
 **USAGE**<br />
@@ -46,7 +50,7 @@ Once done you can move down elevator stick or wait 10 seconds to activate the se
 See the picture above with radio in flight mode.<br />
 **Important: For security reasons once protocol is activated (Flight Mode), it cannot be changed anymore. Need to recycle power.**<br />
 
-**Pay attention that at the moment are used channel 1 for ailerons and channel 2 for elevators (AETR). If you use other mapping channels move sticks accordingly for channels 1 and 2.**<br />
+**Pay attention that is used channel 1 for ailerons and channel 2 for elevators (AETR). If you use other mapping channels move sticks accordingly for channels 1 and 2.**<br />
 **Channel mapping affects only protocol selection while the real channel mapping for your RX is controlled by the firmware version loaded on the IRANGEX**<br />
 
 **BINDING procedure**<br />
@@ -55,11 +59,11 @@ You have 10 seconds to put receiver on bind mode if not done before. After 10 se
 
 **Power consumption**<br />
 With Futaba T14SG power consumption with internal module is 152mah.<br />
-With this system and Banggood iRangeX IRX4 Plus 2.4G power consumption is almost identical, 153mah.<br />
+With this system and iRangeX IRX4 Plus 2.4G power consumption is almost identical, 153mah.<br />
 So no issue with battery.<br />
 
 **Supported protocols**<br />
-All the protocols of the Banggood IRANGEX are supported.<br />
+All the protocols of the IRANGEX are supported.<br />
 With scdcard a file named PROT.TXT is scanned to let browse supported protocols.<br />
 User can choose protocols to use instead of browsing more then 100 protocols.<br />
 Here is an example of PROT.TXT file(if sdcard is not present, system defaults to the protocols as shown in the example below):<br />
@@ -78,32 +82,28 @@ Syntax: protocol name, protocol number, RxNum | Power | Sub protocol, fine tunin
 **BOM**
 
 1 x Arduino nano<br />
-1 x Oled display SH1106<br />
-1 x Banggood iRangeX IRX4 Plus 2.4G CC2500 NRF24L01 A7105 CYRF6936 4 IN 1<br />
+1 x Oled display SH1106  or SSD1306<br />
+1 x iRangeX IRX4 Plus or iRangeX IRX4 Lite 2.4G CC2500 NRF24L01 A7105 CYRF6936 4 IN 1<br />
 1 x Sdcard module (Optional)<br />
 
-No source code will be available at the moment, just the binary to upload to arduino nano (find instructions online).<br />
-
-Waiting to test Banggood IRangeX IRX4 LITE.<br />
-
-**Hoping Banggood can create a IRangeX IRX4 with this system embended.**<br />
-**I know that many people are not able to do it by themselves. They deserve one.**<br />
+Binary to upload to arduino nano (find instructions online).<br />
+The binary works with all combinations of components listed before.
 
 **Connection diagrams**<br />
 <pre>
 Oled Display
 _______________
-Nano  SH1106<br />
- A4    SDA<br />
- A5    SCL<br />
- 5V    VCC<br />
-GND    GND<br />
+Nano  SH1106  SSD1306<br />
+ A4    SDA      SDA<br />
+ A5    SCL      SCL/SCK<br />
+ 5V    VCC      VCC<br />
+ GND   GND      GND<br />
 </pre>
 <pre>
 POWER
 _______________ 
 NANO      TX
-VIN      8.4+ ( should work also with 3s but not tested )
+VIN      8.4+ ( Tested with Lipo 2S/3S )
 GND      GND
 </pre>
 <pre>
@@ -121,7 +121,8 @@ VIN     +BAT
 GND     -GND
 </pre>
 <pre>
-MPM Pinout
+Irx4 back view.
+MPM IRX4 Plus Pinout
 _______________
 ___________
 |         |
@@ -133,9 +134,23 @@ ___________
 |        x|  +Bat
 |        x|  -GND 
 |________x|
+
+MPM IRX4 Lite Pinout
+_______________
+___________________
+|                 |
+|                 |
+|                 |
+|                 |
+| o o o o o o o o |  
+|   - +   S       |
+|                 |
+|                 |
+|_________________|
 </pre>
+
+
 **Thanks to:**<br />
-https://www.banggood.com/<br />
 https://downloads.multi-module.org/?irangex<br />
 https://github.com/pascallanger/DIY-Multiprotocol-TX-Module<br />
 
